@@ -1,11 +1,10 @@
 <p id="notice"><%= notice %></p>
 <div style="width: 100%; height: 100%; background-color: hotpink">
-  <h2 style="font-size:70px; text-align: left">Welcome User</h2>
+  <h2 style="font-size:70px; text-align: left">Users</h2>
 </div>
 <div class="container-fluid">
-  <div class="row">First Name</div>
-  <div class="row">Last name</div>
-  <div class="row">Username</div>
+  <%= link_to 'Products', products_path %>
+  <%= render 'partial'%>
 </div>
 
 

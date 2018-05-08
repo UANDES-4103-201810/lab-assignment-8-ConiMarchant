@@ -24,6 +24,9 @@ class UsersController < ApplicationController
   def show
   end
 
+  def user_product
+  end
+
   # GET /users/new
   def new
     @user = User.new
